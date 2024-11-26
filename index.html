@@ -16,17 +16,143 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
+                 p {
+             background-image: url('https://media4.giphy.com/media/3oEjHQNH1U9VyMD9Yc/giphy.gif?cid=6c09b952aqywyl5hrngd3g9tcc79ynl14w9zjhua6kwtv6ho&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g');
+           }
+      body {
+        background-color: #77DD77;
+      }
 
-  </style>
-</head>
-<body>
 
- 
+                 .photo {
+                   width: 400px;
+                   padding: 10px;
+                   border: double green 4px;
+                   margin-right: 35px;
+                   margin-left: 35px;
+                   border-radius: 100% 100% 70% 70%;
+  
+                 }
 
-</body>
+                 .photo:hover {
+                   animation: shake 0.5s;
+                   animation-iteration-count: infinite;
+                 }
+
+                 @keyframes shake {
+                   0% {
+                     transform: translate(1px, 1px) rotate(0deg);
+                   }
+                   10% {
+                     transform: translate(-1px, -2px) rotate(-1deg);
+                   }
+                   20% {
+                     transform: translate(-3px, 0px) rotate(1deg);
+                   }
+                   30% {
+                     transform: translate(3px, 2px) rotate(0deg);
+                   }
+                   40% {
+                     transform: translate(1px, -1px) rotate(1deg);
+                   }
+                   50% {
+                     transform: translate(-1px, 2px) rotate(-1deg);
+                   }
+                   60% {
+                     transform: translate(-3px, 1px) rotate(0deg);
+                   }
+                   70% {
+                     transform: translate(3px, 1px) rotate(-1deg);
+                   }
+                   80% {
+                     transform: translate(-1px, -1px) rotate(1deg);
+                   }
+                   90% {
+                     transform: translate(1px, 2px) rotate(0deg);
+                   }
+                   100% {
+                     transform: translate(1px, -2px) rotate(-1deg);
+                   }
+                 }
+                 .first {
+                   color: blue;
+                   background-color: green;
+                   width: 70%;
+                   height: 180px;
+                   overflow-y: auto;
+
+                 }
+                 .second {
+                   color: green;
+                      background-color: blue;
+                         width: 70%;
+                   height: 180px;
+                   overflow-y: auto;
+                  
+                 }
+
+                 .third {
+                   color: blue;
+                      background-color: green;
+                         width: 70%;
+                   height: 180px;
+                   overflow-y: auto;
+                 }
+                 .four {
+                   color: green;
+                        background-color: blue;
+                           width: 70%;
+                   height: 180px;
+                   overflow-y: auto;
+                 }
+                 .earth {
+                   color:teal;
+      width: 70%;
+                   height: 180px;
+                   overflow-y: auto;
+                 }
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <div id="four">
+            <div id="earth">
+              <h1><span class="earth" /> Earthquake Facts</h1>
+              <img
+                class="photo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Earth_Western_Hemisphere_transparent_background.png/1024px-Earth_Western_Hemisphere_transparent_background.png"
+                width="200"
+              />
+
+              <ul style="list-style-type-square">
+                <li><span class="first" /> Half a million occur per year</li>
+                <li>
+                  <span class="second" />The largest recorded earthquake in the
+                  world was a magnitude 9.5 in Chile on May 22, 1960.
+                </li>
+                <li>
+                  <span class="third" />Moonquakes, "earthquakes" on the moon,
+                  do occur
+                </li>
+                <li>
+                  <span class="four" />Each year the southern California area
+                  has about 10,000 earthquakes
+                </li>
+              </ul>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Milky_Way_Galaxy_%28transparent_background%29.png/640px-Milky_Way_Galaxy_%28transparent_background%29.png">
+                    <img src="https://d25thuhsbcr6yb.cloudfront.net/m/s/24064/24054816/a-0090.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
